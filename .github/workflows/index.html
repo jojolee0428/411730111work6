@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教育科技學系</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap">
+  </head>
+  <body>
+    <header><img src="images/logo.png" alt="Logo">
+      <h1>教育科技學系</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">關於我們</a></li>
+          <li><a href="#games">遊戲</a></li>
+          <li><a href="#courses">教科課程說明</a></li>
+          <li><a href="#line">實習課的好朋友</a></li>
+          <li><a href="#contact">聯繫我們</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>關於我們</h2>
+        <p>我們的教育科技學系致力於培養創新和技術驅動的教育專業人才。</p>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TcrETAdBEBs?si=685tUwTwUTRpZtSe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section id="games">
+        <h2>H5P 互動遊戲</h2>
+        <p>點擊下面的連結開始遊玩 H5P 互動遊戲：</p><a href="h5p-game.html" target="_blank">開始遊戲</a>
+      </section>
+      <section id="courses">
+        <h2>教科說明</h2>
+        <ul>
+          <li>
+            <h3>說明一</h3>
+            <p class="bounce">淡江大學教育科技學系致力於培養學生在教育與科技領域的雙重專業素養，結合先進的教育理論與科技應用，強調創新思維與實踐能力，旨在為教育界培育具有現代教育視野與技術專業的人才。</p>
+          </li>
+          <li>
+            <h3>說明二</h3>
+            <p class="bounce">淡江大學教育科技學系融合教育與科技，注重實踐與理論的結合，培養學生具備創新教學設計、數位學習技術與教育研究的能力，致力於培育未來教育界的領導者，為現代教育帶來更多智慧與創新。</p>
+          </li>
+        </ul>
+      </section>
+      <section id="line"> 
+        <h2>實習課的好朋友       </h2><img src="images/line1.png" alt="實習課的好朋友"><a class="button" href="https://lin.ee/8HheuTL" target="_blank">了解更多</a>
+        <p>我們的實習課程與多家知名企業合作，提供豐富的實習機會，讓學生能夠將所學知識應用於實際工作中，增強實戰能力。</p>
+      </section>
+      <section id="contact">
+        <h2>聯繫我們</h2>
+        <form action="/submit-form" method="post">
+          <label for="name">姓名</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">電子郵件</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">訊息</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">送出</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 教育科技學系</p>
+      <div class="social-icons"><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></i></a><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter"></i></a><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram"></i></a><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin"></i></a></div>
+    </footer>
+  </body>
+</html>
